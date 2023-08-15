@@ -1,12 +1,11 @@
-# VuePress
+# DaapX WebSite
 
-This directory is a brief example of a [VuePress](https://vuepress.vuejs.org/) site that can be deployed to Vercel with zero-configuration.
+This directory is [DaapX](https://daapx.com) official website that can be deployed to Vercel with zero-configuration.
 
-## Deploy Your Own
+## Deploy
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/vuepress&template=vuepress)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/zvill/daapx-website)
 
-_Live Example: https://vuepress-starter-template.vercel.app_
 
 ## Setup
 

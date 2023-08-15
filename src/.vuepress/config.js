@@ -21,11 +21,7 @@ export default defineUserConfig({
       {
         text: '指南',
         link: '/guide'
-      },
-      {
-        text: '版本更新',
-        link: '/version'
-      },
+      }
     ],
     sidebar: [
     ]
