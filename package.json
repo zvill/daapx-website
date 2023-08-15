@@ -1,0 +1,14 @@
+{
+  "author": "vill",
+  "license": "ISC",
+  "name": "daap-x",
+  "description": "DAAP-X, 官方文档",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.66"
+  }
+}
