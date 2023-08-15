@@ -4,8 +4,8 @@
   "name": "daap-x",
   "description": "DAAP-X, 官方文档",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
   },
   "dependencies": {},
   "devDependencies": {
