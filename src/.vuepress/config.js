@@ -2,7 +2,7 @@ import { defineUserConfig, defaultTheme } from 'vuepress'
 
 export default defineUserConfig({
   lang: 'zh-CN',
-  title: 'DAAPX-数据与应用集成',
+  title: 'DaapX',
   base: '/',
   head: [
     ['link', { rel: 'icon', href: '/images/logo.png' }],
@@ -16,12 +16,18 @@ export default defineUserConfig({
   ],
   theme: defaultTheme({
     logo: '/images/logo.png',
+    colorMode: 'dark', // 'auto' | 'light' | 'dark'
+    colorModeSwitch: false,
     // 在这里进行配置
     navbar: [
       {
-        text: '指南',
-        link: '/guide'
-      }
+        text: '首页',
+        link: '/'
+      },
+      // {
+      //   text: '指南',
+      //   link: '/guide'
+      // }
     ],
     sidebar: [
     ]
