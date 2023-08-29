@@ -18,7 +18,10 @@ title: 首页
 footerHtml: true
 footer: <strong>Email</strong>:<a href="mailto:zhangyw@onlcy.com">zhangyw@onlcy.com</a> | <span>Copyright © 2023-present <a href="https://daapx.com">DaapX.com</a></span>
 ---
-
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PN2XN2KG"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <div class="features">
   <div class="feature">
     <img src="/images/data_icon.png" alt="数据集成">
