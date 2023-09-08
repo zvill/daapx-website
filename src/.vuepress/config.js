@@ -19,6 +19,22 @@ export default defineUserConfig({
       j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
       })(window,document,'script','dataLayer','GTM-PN2XN2KG');
+    `],
+    ['script', {}, `
+    (function(d,t) {
+      var BASE_URL="http://chatroom.console.onlcy.com";
+      var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src=BASE_URL+"/packs/js/sdk.js";
+      g.defer = true;
+      g.async = true;
+      s.parentNode.insertBefore(g,s);
+      g.onload=function(){
+        window.chatwootSDK.run({
+          websiteToken: 'VzDqjg5roFwHEaY7Hv96NrWT',
+          baseUrl: BASE_URL
+        })
+      }
+    })(document,"script");
     `]
 
   ],
