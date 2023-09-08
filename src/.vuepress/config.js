@@ -22,7 +22,7 @@ export default defineUserConfig({
     `],
     ['script', {}, `
     (function(d,t) {
-      var BASE_URL="http://chatroom.console.onlcy.com";
+      var BASE_URL="https://chatroom.console.onlcy.com";
       var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
       g.src=BASE_URL+"/packs/js/sdk.js";
       g.defer = true;
