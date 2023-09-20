@@ -5,7 +5,7 @@ export default defineUserConfig({
   title: 'DaapX',
   base: '/',
   head: [
-    ['link', { rel: 'icon', href: '/images/logo.png' }],
+    ['link', { rel: 'shortcut icon', href: '/images/logo.svg', type: 'image/x-icon', sizes: '16x16' }],
     // ['script', {}, `var _hmt = _hmt || [];
     // (function() {
     //   var hm = document.createElement("script");
