@@ -39,9 +39,9 @@ export default defineUserConfig({
 
   ],
   theme: defaultTheme({
-    logo: '/images/logo.png',
-    colorMode: 'dark', // 'auto' | 'light' | 'dark'
-    colorModeSwitch: false,
+    logo: '/images/logo.svg',
+    colorMode: 'auto', // 'auto' | 'light' | 'dark'
+    colorModeSwitch: true,
     // 在这里进行配置
     navbar: [
       {
