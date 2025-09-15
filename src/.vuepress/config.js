@@ -48,6 +48,10 @@ export default defineUserConfig({
         text: '首页',
         link: '/'
       },
+      {
+        text: '趣味游戏',
+        link: '/games/'
+      },
       // {
       //   text: '指南',
       //   link: '/guide'
